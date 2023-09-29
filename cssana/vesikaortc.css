@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.baslik {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Başlık rengi */
+}
+
+.bilgiler {
+    font-size: 18px;
+    color: #777; /* Bilgiler rengi */
+    margin-top: 20px;
+}
