@@ -22,3 +22,28 @@ body {
     color: #777; /* Bilgiler rengi */
     margin-top: 20px;
 }
+
+.resim-container {
+    position: relative;
+}
+
+.resim {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.indirme-butonu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Buton rengi */
+    color: #fff; /* Buton metni rengi */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.indirme-butonu:hover {
+    background-color: #0056b3; /* Hover rengi */
+}
