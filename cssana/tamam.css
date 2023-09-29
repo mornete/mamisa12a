@@ -1,11 +1,10 @@
 body {
-    height: 100%;
-    width: 100%;
-    background-color: black;
+    height: 100vh; /* Sayfa yüksekliğini cihaz ekranının yüksekliği kadar ayarlar */
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .btn-cont {
