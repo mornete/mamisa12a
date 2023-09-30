@@ -1,10 +1,25 @@
-/* ... Diğer stiller ... */
-
-.resim-container {
-    text-align: center;
+body {
+    background-color: black; /* Arka plan rengi: Siyah */
+    margin: 0;
+    padding: 0;
 }
 
-.resim-araligi {
-    height: 20px; /* Resimler arasındaki boşluğun yüksekliği */
-    background-color: #f0f0f0; /* Gri arka plan rengi */
+.resim-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Resimlerin etrafındaki boşluk */
+}
+
+.resim-container a {
+    margin-bottom: 20px; /* Resimler arasındaki dikey boşluk */
+    flex-basis: calc(33.33% - 20px); /* Resimlerin yatay boşluklu genişliği */
+    text-align: center;
+    text-decoration: none;
+    color: white; /* Resimlerin altındaki metin rengi */
+}
+
+.resim-container img {
+    max-width: 100%;
+    height: auto;
 }
